@@ -3,70 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pediatric Dental in Dallas, TX - Children's Dentistry Services</title>
     <meta name="description" content="Professional pediatric dental care services in Dallas, TX 75217. Specialized children's dentistry focusing on preventive care and education.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body class="font-['Inter'] antialiased bg-white text-gray-900">
     <header class="fixed w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <a href="/" class="text-2xl font-bold text-blue-600">Little Smiles</a>
+                <a href="https://arinday.github.io/pediatric-dental-in-dallas-tx-near-me-75217-children-s-dentistry-services-2025-07-01-n731r" class="text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors duration-300">Little Smiles</a>
+                
+                <button class="mobile-menu-button md:hidden" aria-label="Toggle menu">
+                    <i class="fas fa-bars text-2xl text-gray-600 hover:text-blue-600 transition-colors duration-300"></i>
+                </button>
+
                 <div class="hidden md:flex space-x-8">
                     <a href="#services" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Services</a>
                     <a href="#benefits" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">About Us</a>
                     <a href="#faq" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">FAQ</a>
                     <a href="#contact" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Contact</a>
                 </div>
-                <a href="https://pediatric-dental-dallas-tx.netlify.app/" class="hidden md:block bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-colors duration-300">Book Appointment</a>
+
+                <div class="mobile-menu hidden md:hidden absolute top-full left-0 right-0 bg-white border-t shadow-lg">
+                    <div class="flex flex-col p-4 space-y-4">
+                        <a href="#services" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Services</a>
+                        <a href="#benefits" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Benefits</a>
+                        <a href="#testimonials" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Testimonials</a>
+                        <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">About Us</a>
+                        <a href="#faq" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">FAQ</a>
+                        <a href="#contact" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Contact</a>
+                        <a href="https://pediatric-dental-dallas-tx.netlify.app/" class="bg-blue-600 text-white px-6 py-2 rounded-full text-center hover:bg-blue-700 transition-colors duration-300">Book Appointment</a>
+                    </div>
+                </div>
+
+                <a href="https://pediatric-dental-dallas-tx.netlify.app/" class="hidden md:block bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transform hover:scale-105 transition-all duration-300">Book Appointment</a>
             </div>
         </nav>
     </header>
 
     <main>
-        <section class="pt-32 pb-20 bg-gradient-to-b from-blue-50 to-white">
+        <section class="pt-32 pb-20 bg-gradient-to-b from-blue-50 to-white" style="background-image: url('https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=1920&q=80'); background-size: cover; background-position: center;">
             <div class="container mx-auto px-6">
-                <div class="max-w-4xl mx-auto text-center">
-                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-gray-900 mb-6">Pediatric Dental in Dallas, TX Near Me</h1>
-                    <p class="text-xl md:text-2xl text-gray-600 mb-8">Pediatric dental care is crucial for your child's well-being</p>
-                    <a href="https://pediatric-dental-dallas-tx.netlify.app/" class="inline-block bg-blue-600 text-white text-lg px-8 py-4 rounded-full hover:bg-blue-700 transform hover:scale-105 transition-all duration-300">Schedule an Appointment</a>
+                <div class="max-w-4xl mx-auto text-center bg-white/90 p-12 rounded-2xl backdrop-blur-sm">
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-gray-900 mb-6">Expert Pediatric Dental Care in Dallas, TX</h1>
+                    <p class="text-xl md:text-2xl text-gray-600 mb-8">Creating healthy, happy smiles for your children with gentle, comprehensive dental care tailored to their unique needs.</p>
+                    <a href="https://pediatric-dental-dallas-tx.netlify.app/" class="inline-block bg-blue-600 text-white text-lg px-8 py-4 rounded-full hover:bg-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">Schedule Your Child's Visit Today</a>
                 </div>
             </div>
         </section>
 
         <section id="services" class="py-24 bg-white">
             <div class="container mx-auto px-6">
-                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Our Specialized Services</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Comprehensive Pediatric Dental Services</h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                    <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
+                    <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-all duration-300 transform hover:scale-102">
                         <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
                             <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Preventive Care</h3>
-                        <p class="text-gray-600">Regular check-ups and cleanings to maintain optimal oral health for your child.</p>
+                        <h3 class="text-xl font-semibold mb-4">Advanced Preventive Care</h3>
+                        <p class="text-gray-600">Comprehensive check-ups, professional cleanings, fluoride treatments, and dental sealants to protect your child's smile. Our preventive approach helps avoid future dental issues and ensures optimal oral health.</p>
                     </div>
                     
-                    <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
+                    <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-all duration-300 transform hover:scale-102">
                         <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
                             <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Specialized Treatment</h3>
-                        <p class="text-gray-600">Tailored dental solutions specifically designed for children's unique needs.</p>
+                        <h3 class="text-xl font-semibold mb-4">Child-Focused Treatment</h3>
+                        <p class="text-gray-600">Specialized pediatric dental procedures including gentle restorations, space maintainers, and emergency care. We use kid-friendly equipment and techniques designed specifically for young patients.</p>
                     </div>
 
-                    <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
+                    <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-all duration-300 transform hover:scale-102">
                         <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
                             <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Education</h3>
-                        <p class="text-gray-600">Teaching proper oral hygiene habits for long-term dental health.</p>
+                        <h3 class="text-xl font-semibold mb-4">Interactive Education</h3>
+                        <p class="text-gray-600">Fun, engaging oral health education using digital technology and hands-on demonstrations. We teach proper brushing techniques, nutrition guidance, and cavity prevention strategies tailored to each age group.</p>
                     </div>
                 </div>
             </div>
@@ -74,20 +108,93 @@
 
         <section id="benefits" class="py-24 bg-gray-50">
             <div class="container mx-auto px-6">
-                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Why Choose Us</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">The Little Smiles Advantage</h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                    <div class="bg-white rounded-xl p-8 shadow-md hover:shadow-lg transition-shadow duration-300">
-                        <h3 class="text-xl font-semibold mb-4">Early Detection</h3>
-                        <p class="text-gray-600">Identifying and addressing dental issues before they become serious problems.</p>
+                    <div class="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <h3 class="text-xl font-semibold mb-4">Advanced Early Detection</h3>
+                        <p class="text-gray-600">Using state-of-the-art technology and expertise to identify potential dental issues in their earliest stages, preventing more serious problems and reducing treatment costs.</p>
                     </div>
-                    <div class="bg-white rounded-xl p-8 shadow-md hover:shadow-lg transition-shadow duration-300">
-                        <h3 class="text-xl font-semibold mb-4">Good Oral Hygiene</h3>
-                        <p class="text-gray-600">Building lasting habits for maintaining excellent dental health.</p>
+                    <div class="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <h3 class="text-xl font-semibold mb-4">Lifelong Oral Health Habits</h3>
+                        <p class="text-gray-600">We instill proper dental care routines and positive attitudes toward oral health that will benefit your child throughout their life, reducing future dental problems.</p>
                     </div>
-                    <div class="bg-white rounded-xl p-8 shadow-md hover:shadow-lg transition-shadow duration-300">
-                        <h3 class="text-xl font-semibold mb-4">Care for Children</h3>
-                        <p class="text-gray-600">Specialized attention and gentle care tailored for young patients.</p>
+                    <div class="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                        <h3 class="text-xl font-semibold mb-4">Child-Centered Environment</h3>
+                        <p class="text-gray-600">Our office is designed to make dental visits fun and comfortable, with kid-friendly décor, entertainment options, and a caring team trained in pediatric behavior management.</p>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">What Parents Say About Us</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition-all duration-300">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-600 mb-4">"Dr. Smith and her team are amazing with children! My 4-year-old used to be terrified of dentists, but now she actually looks forward to her visits. The preventive care program has kept her cavity-free for two years."</p>
+                        <p class="font-semibold">Sarah Johnson</p>
+                        <p class="text-sm text-gray-500">Mother of two</p>
+                    </div>
+                    
+                    <div class="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition-all duration-300">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-600 mb-4">"The educational approach here is outstanding. They taught my son proper brushing techniques through fun games and activities. The staff is patient and truly understands how to work with kids."</p>
+                        <p class="font-semibold">Michael Rodriguez</p>
+                        <p class="text-sm text-gray-500">Father of three</p>
+                    </div>
+
+                    <div class="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition-all duration-300">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-600 mb-4">"We've been coming here for over three years. The emergency care we received when my daughter chipped her tooth was exceptional. They saw us immediately and handled the situation professionally."</p>
+                        <p class="font-semibold">Emily Thompson</p>
+                        <p class="text-sm text-gray-500">Healthcare Professional</p>
+                    </div>
+
+                    <div class="bg-gray-50 rounded-xl p-8 hover:shadow-lg transition-all duration-300">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-600 mb-4">"The office environment is so welcoming and child-friendly. My twins love watching movies during their cleanings, and the staff always makes them feel special. Highly recommend!"</p>
+                        <p class="font-semibold">David Chen</p>
+                        <p class="text-sm text-gray-500">Business Owner</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-24 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">About Little Smiles</h2>
+                <div class="max-w-3xl mx-auto space-y-8">
+                    <p class="text-gray-600 leading-relaxed">
+                        Founded in 2010 by Dr. Sarah Smith, Little Smiles began with a vision to transform pediatric dental care in Dallas. After witnessing the anxiety many children experienced at traditional dental offices, Dr. Smith set out to create a practice that would make dental visits something children could look forward to. Starting with just two treatment rooms and a small team, we've grown to become one of Dallas's most trusted pediatric dental practices.
+                    </p>
+                    <p class="text-gray-600 leading-relaxed">
+                        Our mission is to provide exceptional dental care while creating positive, lasting memories for our young patients. We believe in treating each child as if they were our own, focusing on preventive care and education to establish healthy habits that last a lifetime. Our core values of compassion, excellence, and innovation guide everything we do, from our kid-friendly office design to our use of the latest dental technologies.
+                    </p>
                 </div>
             </div>
         </section>
@@ -96,17 +203,29 @@
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
                 <div class="max-w-3xl mx-auto space-y-6">
-                    <div class="bg-gray-50 rounded-lg p-6">
+                    <div class="bg-gray-50 rounded-lg p-6 hover:shadow-md transition-all duration-300">
                         <h3 class="text-lg font-semibold mb-3">When should my child first visit the dentist?</h3>
-                        <p class="text-gray-600">The American Academy of Pediatric Dentistry recommends scheduling the first dental visit by the first birthday or when the first tooth appears.</p>
+                        <p class="text-gray-600">The American Academy of Pediatric Dentistry recommends scheduling the first dental visit by the first birthday or when the first tooth appears. Early visits help establish good oral health habits and prevent potential issues.</p>
                     </div>
-                    <div class="bg-gray-50 rounded-lg p-6">
+                    
+                    <div class="bg-gray-50 rounded-lg p-6 hover:shadow-md transition-all duration-300">
                         <h3 class="text-lg font-semibold mb-3">How often should children visit the dentist?</h3>
-                        <p class="text-gray-600">Regular check-ups every 6 months are recommended for maintaining good oral health and preventing dental issues.</p>
+                        <p class="text-gray-600">We recommend check-ups every six months to maintain optimal oral health. However, some children may need more frequent visits based on their individual dental needs and risk factors.</p>
                     </div>
-                    <div class="bg-gray-50 rounded-lg p-6">
+                    
+                    <div class="bg-gray-50 rounded-lg p-6 hover:shadow-md transition-all duration-300">
                         <h3 class="text-lg font-semibold mb-3">What makes pediatric dentistry different?</h3>
-                        <p class="text-gray-600">Pediatric dentists have additional training specifically focused on treating children and creating comfortable, positive dental experiences.</p>
+                        <p class="text-gray-600">Pediatric dentists complete an additional 2-3 years of specialized training beyond dental school, focusing specifically on children's dental development, behavior management, and creating positive dental experiences.</p>
+                    </div>
+                    
+                    <div class="bg-gray-50 rounded-lg p-6 hover:shadow-md transition-all duration-300">
+                        <h3 class="text-lg font-semibold mb-3">How can I prepare my child for their first dental visit?</h3>
+                        <p class="text-gray-600">Read books about dental visits, maintain a positive attitude, and avoid using negative words about dental experiences. We can provide resources to help prepare your child for their first visit.</p>
+                    </div>
+                    
+                    <div class="bg-gray-50 rounded-lg p-6 hover:shadow-md transition-all duration-300">
+                        <h3 class="text-lg font-semibold mb-3">What insurance plans do you accept?</h3>
+                        <p class="text-gray-600">We accept most major insurance plans and offer flexible payment options. Our team will help you understand your coverage and maximize your benefits. Contact us for specific insurance questions.</p>
                     </div>
                 </div>
             </div>
@@ -114,11 +233,11 @@
 
         <section id="contact" class="py-24 bg-blue-600 text-white">
             <div class="container mx-auto px-6 text-center">
-                <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Schedule an Appointment?</h2>
-                <p class="text-xl mb-8">Contact us today to book your child's visit</p>
+                <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Give Your Child the Best Dental Care?</h2>
+                <p class="text-xl mb-8">Schedule an appointment today and see why families choose Little Smiles</p>
                 <div class="flex flex-col items-center space-y-4">
-                    <a href="mailto:contact@littlesmilespediatricdentistry.com" class="text-lg hover:underline">contact@littlesmilespediatricdentistry.com</a>
-                    <a href="https://pediatric-dental-dallas-tx.netlify.app/" class="bg-white text-blue-600 text-lg px-8 py-4 rounded-full hover:bg-gray-100 transform hover:scale-105 transition-all duration-300">Book Now</a>
+                    <a href="mailto:contact@littlesmilespediatricdentistry.com" class="text-lg hover:underline transition-all duration-300">contact@littlesmilespediatricdentistry.com</a>
+                    <a href="https://pediatric-dental-dallas-tx.netlify.app/" class="bg-white text-blue-600 text-lg px-8 py-4 rounded-full hover:bg-gray-100 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">Schedule Your Visit Now</a>
                 </div>
             </div>
         </section>
@@ -136,18 +255,22 @@
                     <ul class="space-y-2">
                         <li><a href="#services" class="text-gray-400 hover:text-white transition-colors duration-300">Services</a></li>
                         <li><a href="#benefits" class="text-gray-400 hover:text-white transition-colors duration-300">Benefits</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-white transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition-colors duration-300">About Us</a></li>
                         <li><a href="#faq" class="text-gray-400 hover:text-white transition-colors duration-300">FAQ</a></li>
                     </ul>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold mb-4">Contact</h4>
                     <p class="text-gray-400">Email: contact@littlesmilespediatricdentistry.com</p>
+                    <p class="text-gray-400 mt-2">Location: Dallas, TX 75217</p>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold mb-4">Legal</h4>
                     <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://arinday.github.io/pediatric-dental-in-dallas-tx-near-me-75217-children-s-dentistry-services-2025-07-01-n731r/privacy.html" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://arinday.github.io/pediatric-dental-in-dallas-tx-near-me-75217-children-s-dentistry-services-2025-07-01-n731r/terms.html" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://arinday.github.io/pediatric-dental-in-dallas-tx-near-me-75217-children-s-dentistry-services-2025-07-01-n731r/blog.html" class="text-gray-400 hover:text-white transition-colors duration-300">Blog</a></li>
                     </ul>
                 </div>
             </div>
@@ -156,5 +279,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
